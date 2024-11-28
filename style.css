@@ -69,7 +69,7 @@ nav a{
     position: relative;
 }
 .input input{
-    width: 20%;
+    width: 25%;
     height: 30px;
     border-radius: 10px;
     padding: 20px;
@@ -81,7 +81,7 @@ nav a{
     padding: 8px;
     border-radius: 10px;
     position: absolute;
-    right: 670px;
+    right: 508px;
 }
 .drop{
     margin-top: 50px;
@@ -117,7 +117,7 @@ nav a{
 }
 .dropimg{
     height: 300px;
-    width: 350px;
+    width: 300px;
     text-align: center;
     box-sizing: border-box;
     margin:50px;
@@ -242,7 +242,8 @@ nav a{
     text-align: center;
     padding-left: 90px;
     padding-right: 90px;
-    margin: 50px;
+    margin-top: 20px;
+    /* margin: 50px; */
 }
 .data p{
     font-size: 25px;
@@ -336,6 +337,8 @@ footer{
     }
     footer{
         display: block;
+        padding-left: 0;
+
     }
     .apps{
         width: auto;
@@ -354,39 +357,7 @@ footer{
         display: block;
         color: white;
     }
-    .shoptext ul li{ 
-        font-size: 10px;
-        line-height: normal;
-    }
-    .shoptext h1{ 
-        font-size: 15px;
-    }
-    .data h1{
-        font-size: 15px;
-    }
-    .data p{
-        font-size: 10px;
-    }
-    .fifthtext{
-        width: 100%;
-    }
-    .fifthtext span{
-        font-size: 15px;
-    }
-    .fifthtext h1{
-        font-size: 15px;
-    }
-    .fifthtext p{
-        font-size: 10px;
-    }
-    .righttext h1 h2 span{
-        font-size: 15px;
-    }
-    .righttext ul li{
-        font-size: 10px;
-    }
     .fimg{
-        width: 100vh;
-        justify-content: center;
+        width: 100px;
     }
 }

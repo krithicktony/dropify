@@ -1,0 +1,392 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+header{
+    background-color: rgba(42, 132, 255, 0.968627451);
+    height: 765px;
+
+}
+nav ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+.navlist li {
+    margin-top: 35px;
+    list-style: none;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+}
+.handburger{
+    display: none;
+}
+.navlistright{
+    z-index: 999;
+    position: fixed;
+    display: none;
+    flex-direction: column;
+    height: 100vh;
+    width: 200px;
+    background-color:rgba(42, 132, 255, 0.968627451);
+    list-style: none;    
+
+}
+.navlistright li a:hover{
+    color: blue;
+    border-bottom: 2px solid white;
+    transition: .5s;
+    padding-bottom: 6px;
+}
+.navlistright li a{
+    color: white;
+    text-decoration: none;
+}
+.text{
+    margin-top: 50px;
+    text-align: center;
+    line-height: 30px;
+}
+.text h1{
+    font-weight: bold;
+    color: white;
+    font-size: 50px;
+    padding-left: 14%;
+    padding-right: 14%;
+    line-height: 90px;
+} 
+.text p{
+    color: white;
+    font-size: 30px;
+} 
+
+.input{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    position: relative;
+}
+.input input{
+    width: 20%;
+    height: 30px;
+    border-radius: 10px;
+    padding: 20px;
+}
+.input span{
+    cursor: pointer;
+    text-align: center;
+    background-color: #ffa35a;
+    padding: 8px;
+    border-radius: 10px;
+    position: absolute;
+    right: 670px;
+}
+.drop{
+    margin-top: 50px;
+    text-align: center;
+}
+.drop h1{
+    font-size: 50px;
+}
+.drop p{
+    font-size: 25px;
+}
+.drop h1::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 20%;
+    height: 5px;
+    background-color: #ffa35a;
+    right: 0;
+    margin: 0 auto;
+    margin-top: 65px;
+}
+.dropimg img{
+    width: 70px;
+    height: auto;
+}
+.dropimg p{
+    padding-top: 15px;
+}
+.dropimg h2{
+    font-size: 20px;
+    font-weight: bold;
+}
+.dropimg{
+    height: 300px;
+    width: 350px;
+    text-align: center;
+    box-sizing: border-box;
+    margin:50px;
+}
+.third {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+/*  */
+.righttext span{
+    font-size: 30px;
+    border-bottom: 3px solid black;
+    padding-bottom: 7px;
+} 
+.righttext h1{
+    padding-top: 25px;
+}
+.righttext li{
+    padding-top: 40px;
+    font-size: 20px;
+}
+
+.forth{
+    display: flex;
+    padding-left: 110px;
+    padding-right: 110px;
+}
+
+.box{
+    background-image: url(image/bn.png);
+    background-repeat: no-repeat;
+    position: relative;
+    height: 600px;
+    padding: 30px;
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.box .diamond{
+    position: absolute;
+    background-color: white;
+    height: 200px;
+    width: 240px;
+    border-radius: 10px;
+    text-align: center;
+} 
+.diamond img {
+    padding-top: 20px;
+    width: 45px;
+}
+.diamond p {
+    padding-top: 20px;
+    font-size: 20px;
+}
+#diamondbox1{
+    left: 4%;
+    top: 150px;
+}
+#diamondbox2{
+    right:20px;
+    left: 60%;
+}
+#diamondbox3{
+    right:20px;
+    top: 300px;
+    left: 60%;
+
+}
+.righttext{
+    padding-left: 80px;
+}
+.draganddrop{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+}
+.fifth{
+    display: flex;
+    padding-left: 130px;
+    padding-right: 130px;
+    margin: 50px;
+}
+.fifthtext span{
+    font-size: 20px;
+    border-bottom: 4px solid black;
+    padding-bottom: 7px;
+}
+.fifthtext h1{
+    padding-top: 45px;
+}
+.fifthtext p{
+    padding-top: 45px;
+    font-size: 35px;
+}
+.mobile{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+}
+.shop{
+    padding-left: 130px;
+    padding-right: 130px;
+    display: flex;
+}
+.shoptext span{
+    font-size: 20px;
+    border-bottom: 3px solid black;
+    padding-bottom: 7px;
+}
+.shoptext h1{
+    padding-top: 40px;
+}
+.shoptext ul{
+    padding-top: 40px;
+}
+.shoptext li{
+    line-height: 60px;
+    font-size: 30px;
+}
+.data{
+    text-align: center;
+    padding-left: 90px;
+    padding-right: 90px;
+    margin: 50px;
+}
+.data p{
+    font-size: 25px;
+}
+.dataanalytics img{
+    width: 45px;
+}
+.dataanalytics p{
+    padding-top: 10px;
+    font-size: 20px;
+}
+.dataanalytics{
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(240, 236, 230);
+    border-radius: 15px;
+    width: 500px;
+    text-align: center;
+    padding: 30px;
+    text-align: left;
+}
+.home{
+    gap: 20px;
+    justify-content: center;
+    display: flex;
+}
+.apps{
+    width: 600px;
+}
+footer{
+    margin-top: 100px;
+    padding-top: 50px;
+    background-color: rgba(42, 132, 255, 0.968627451);
+    display: flex;
+    padding-left: 100px;
+    padding-right: 100px;
+    justify-content: space-around;
+}
+
+.playstore img{
+    width: 150px;
+}
+.getintouch{
+    padding-left: 30px;
+}
+.links ul{
+    list-style: none;
+}
+.apps p{
+    line-height: 30px;
+}
+.linksa li a{
+    text-decoration: none;
+    color: white;
+}
+.linksa li a:hover{
+    color: blue;
+}
+@media (max-width:1000px) {
+    .text h1 ,p{
+        font-size: 20px;
+        line-height: normal;
+    }
+    .text p{
+        font-size: 20px;
+    }
+    .forth{
+        display: block;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-left:0px ;
+        padding-right: 0px;
+    }
+    .fifth{
+        justify-content: center;
+        display: block;
+        flex-wrap: wrap;
+        padding-left:0px ;
+        padding-right: 0px;
+    }
+    .fifthtext{
+        font-size: medium;
+        height: auto;
+        justify-content: center;
+    }
+    .shop{
+        justify-content: center;
+        display: block;
+        flex-wrap: wrap;
+        padding-left:0px ;
+        padding-right: 0px;
+    }
+    footer{
+        display: block;
+    }
+    .apps{
+        width: auto;
+    }
+    .sa{
+        padding-left:0px ;
+        padding-right: 0px;
+        flex-wrap: wrap
+    }
+}
+@media (max-width:900px){
+    .navlist{
+        display: none;
+    }
+    .handburger{
+        display: block;
+        color: white;
+    }
+    .shoptext ul li{ 
+        font-size: 10px;
+        line-height: normal;
+    }
+    .shoptext h1{ 
+        font-size: 15px;
+    }
+    .data h1{
+        font-size: 15px;
+    }
+    .data p{
+        font-size: 10px;
+    }
+    .fifthtext{
+        width: 100%;
+    }
+    .fifthtext span{
+        font-size: 15px;
+    }
+    .fifthtext h1{
+        font-size: 15px;
+    }
+    .fifthtext p{
+        font-size: 10px;
+    }
+    .righttext h1 h2 span{
+        font-size: 15px;
+    }
+    .righttext ul li{
+        font-size: 10px;
+    }
+    .fimg{
+        width: 100vh;
+        justify-content: center;
+    }
+}

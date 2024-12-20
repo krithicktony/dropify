@@ -211,7 +211,7 @@ nav a{
 }
 .fifthtext p{
     padding-top: 45px;
-    font-size: 35px;
+    font-size: auto;
 }
 .mobile{
     flex-wrap: wrap;
@@ -236,7 +236,7 @@ nav a{
 }
 .shoptext li{
     line-height: 60px;
-    font-size: 30px;
+    font-size: auto;
 }
 .data{
     text-align: center;

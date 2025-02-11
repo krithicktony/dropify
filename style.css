@@ -3,6 +3,16 @@ body{
     padding: 0%;
     box-sizing: border-box;
 }
+button a{
+    text-decoration: none;
+    color: white;
+}
+button{
+    background-color: blueviolet;
+    padding: 10px;
+    border-radius: 20px;
+    outline: none;
+}
 header{
     background-color: rgba(42, 132, 255, 0.968627451);
     height: 765px;
@@ -19,6 +29,7 @@ nav ul{
 nav a{
     color: white;
     text-decoration: none;
+    text-transform: uppercase;
 }
 .handburger{
     display: none;
@@ -52,14 +63,14 @@ nav a{
 .text h1{
     font-weight: bold;
     color: white;
-    font-size: 50px;
+    font-size: 40px;
     padding-left: 14%;
     padding-right: 14%;
-    line-height: 90px;
+    line-height: 60px;
 } 
 .text p{
     color: white;
-    font-size: 30px;
+    font-size: 25px;
 } 
 
 .input{
@@ -71,21 +82,28 @@ nav a{
 .input input{
     width: 25%;
     height: 30px;
-    border-radius: 10px;
+    border-radius: 15px;
     padding: 20px;
+    border: none;
+    outline: none;
 }
 .input span{
     cursor: pointer;
     text-align: center;
     background-color: #ffa35a;
     padding: 8px;
-    border-radius: 10px;
+    border-radius: 15px;
     position: absolute;
-    right: 508px;
+    right: 507px;
 }
 .drop{
     margin-top: 50px;
     text-align: center;
+}
+#drop:after{
+    content: "\25bc";
+    color: black;
+    font-size: 10px;
 }
 .drop h1{
     font-size: 50px;
@@ -129,12 +147,16 @@ nav a{
 }
 /*  */
 .righttext span{
-    font-size: 30px;
+    font-size: 20px;
     border-bottom: 3px solid black;
     padding-bottom: 7px;
 } 
 .righttext h1{
     padding-top: 25px;
+    font-size: 25px;
+}
+.righttext h2{
+    font-size: 30px;
 }
 .righttext li{
     padding-top: 40px;
@@ -145,15 +167,18 @@ nav a{
     display: flex;
     padding-left: 110px;
     padding-right: 110px;
+    gap: 150px;
 }
 
 .box{
     background-image: url(image/bn.png);
+    background-size: 600px 100%;
     background-repeat: no-repeat;
     position: relative;
     height: 600px;
     padding: 30px;
-    width: 90%;
+    width: 100%;
+    max-width: 100%;
     display: flex;
     justify-content: space-evenly;
 }
@@ -187,9 +212,9 @@ nav a{
     left: 60%;
 
 }
-.righttext{
-    padding-left: 80px;
-}
+/* .righttext{
+    padding-left: 130px;
+} */
 .draganddrop{
     flex-wrap: wrap;
     display: flex;
@@ -242,8 +267,7 @@ nav a{
     text-align: center;
     padding-left: 90px;
     padding-right: 90px;
-    margin-top: 20px;
-    /* margin: 50px; */
+    margin-top: 30px;
 }
 .data p{
     font-size: 25px;
@@ -268,6 +292,7 @@ nav a{
     gap: 20px;
     justify-content: center;
     display: flex;
+    flex-wrap: wrap;
 }
 .apps{
     width: 600px;
@@ -281,7 +306,6 @@ footer{
     padding-right: 100px;
     justify-content: space-around;
 }
-
 .playstore img{
     width: 150px;
 }
